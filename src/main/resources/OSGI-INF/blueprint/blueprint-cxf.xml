@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0" default-activation="lazy">
+
+    <bean id="serviceBean" class="nato.logfs.soa.karaf.MyServiceImpl"/>
+
+    <service ref="serviceBean" interface="nato.logfs.soa.karaf.MyService"/>
+
+</blueprint>
